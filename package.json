@@ -1,0 +1,35 @@
+{
+  "name": "rollup-library-boiler",
+  "version": "1.0.0",
+  "description": "Boilerplate project for libraries using rollup",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzoborgfrantz/rollup-library-boiler.git"
+  },
+  "keywords": [
+    "rollup"
+  ],
+  "author": "enzo borg frantz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enzoborgfrantz/rollup-library-boiler/issues"
+  },
+  "homepage": "https://github.com/enzoborgfrantz/rollup-library-boiler#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "rollup": "^0.49.2",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-commonjs": "^8.2.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  }
+}
