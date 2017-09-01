@@ -1,3 +1,5 @@
+import foo, { bar } from './foo.js';
+
 export default solveAllProblems = () => {
-  console.log('ur problems r solved');
+  console.log(foo(), bar());
 }
