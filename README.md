@@ -1,2 +1,2 @@
-# rollup-library-boiler
-A boilerplate project for libraries using rollup
+# url-shaper
+A library for simplifying url construction
