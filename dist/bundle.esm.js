@@ -6,8 +6,8 @@ var foo = function () {
   return 'u w0t m9';
 };
 
-var main = solveAllProblems = () => {
+function solveAllProblems () {
   console.log(foo(), bar());
-};
+}
 
-export default main;
+export default solveAllProblems;

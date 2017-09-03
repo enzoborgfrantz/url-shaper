@@ -1,1 +1,1 @@
-!function(e,o){"object"==typeof exports&&"undefined"!=typeof module?module.exports=o():"function"==typeof define&&define.amd?define(o):e.testFunction=o()}(this,function(){"use strict";return solveAllProblems=function(){console.log("u w0t m9","baz")}});
+!function(n,e){"object"==typeof exports&&"undefined"!=typeof module?module.exports=e():"function"==typeof define&&define.amd?define(e):n.testFunction=e()}(this,function(){"use strict";var n=function(){return"baz"},e=function(){return"u w0t m9"};return function(){console.log(e(),n())}});
