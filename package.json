@@ -1,11 +1,8 @@
 {
-  "name": "npm-publish-testing-1-2-3",
-  "version": "1.0.5",
-  "description": "Boilerplate project for libraries using rollup",
+  "name": "url-shaper",
+  "version": "1.0.0",
+  "description": "A simple library for builing urls",
   "main": "dist/bundle.umd.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "test",
     "build": "rollup -c",
@@ -13,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enzoborgfrantz/rollup-library-boiler.git"
+    "url": "git+https://github.com/enzoborgfrantz/url-shaper.git"
   },
   "keywords": [
     "rollup"
@@ -21,9 +18,9 @@
   "author": "enzo borg frantz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/enzoborgfrantz/rollup-library-boiler/issues"
+    "url": "https://github.com/enzoborgfrantz/url-shaper/issues"
   },
-  "homepage": "https://github.com/enzoborgfrantz/rollup-library-boiler#readme",
+  "homepage": "https://github.com/enzoborgfrantz/url-shaper#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-external-helpers": "^6.22.0",
