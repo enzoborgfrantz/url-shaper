@@ -2,7 +2,7 @@
   "name": "npm-publish-testing-1-2-3",
   "version": "1.0.2",
   "description": "Boilerplate project for libraries using rollup",
-  "main": "main.js",
+  "main": "dist/bundle.umd.js",
   "directories": {
     "test": "test"
   },
