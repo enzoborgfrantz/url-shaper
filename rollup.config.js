@@ -10,7 +10,7 @@ export default [
 	{
 		input,
     output: {
-      file: './dist/bundle.js' ,
+      file: './dist/bundle.umd.js' ,
       format: 'umd'
     },
 		name: 'testFunction',
@@ -24,4 +24,22 @@ export default [
 			uglify()
 		]
 	},
+		// CommonJS (for Node) and ES module (for bundlers) build.
+		// (We could have three entries in the configuration array
+		// instead of two, but it's quicker to generate multiple
+		// builds from a single configuration where possible, using
+		// the `targets` option which can specify `dest` and `format`)
+		{
+			input,
+			output: [
+				{
+	        file: 'dist/bundle.cjs.js',
+	        format: 'cjs'
+	      },
+				{
+	        file: 'dist/bundle.esm.js',
+	        format: 'es'
+	      }
+			]
+		}
 ]
