@@ -1,6 +1,6 @@
 {
   "name": "url-shaper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple library for builing urls",
   "main": "dist/bundle.umd.js",
   "scripts": {
