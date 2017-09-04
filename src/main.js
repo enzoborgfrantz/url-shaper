@@ -20,7 +20,7 @@ const buildQuery = (parameters = {}) => {
   return `?${query}`;
 }
 
-export default function (path, queryParameters) {
+export default (path, queryParameters) => {
   const pathWithSlash = resolveSlash(path);
   const query = buildQuery(queryParameters);
   return `${pathWithSlash}${query}`;
