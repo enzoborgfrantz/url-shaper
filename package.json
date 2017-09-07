@@ -8,7 +8,6 @@
     "test:watch": "npm test -- --watch",
     "test:coverage": "npm test -- --watchAll --coverage",
     "build": "NODE_ENV=prod rollup -c",
-    "publish": "npm build && npm publish",
     "start": "node"
   },
   "repository": {
