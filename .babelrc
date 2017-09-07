@@ -1,0 +1,24 @@
+{
+  "ignore": [
+    "node_modules/**"
+  ],
+  "env": {
+    "dev": {
+      "presets": [
+        "es2015",
+      ],
+      "plugins": [
+        "transform-object-rest-spread"
+      ]
+    },
+    "prod": {
+      "presets": [
+        ["es2015", { "modules": false }],
+      ],
+      "plugins": [
+        "external-helpers",
+        "transform-object-rest-spread"
+      ]
+    }
+  }
+}

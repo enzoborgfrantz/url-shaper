@@ -4,8 +4,11 @@
   "description": "A simple library for builing urls",
   "main": "dist/bundle.umd.js",
   "scripts": {
-    "test": "test",
-    "build": "rollup -c",
+    "test": "NODE_ENV=dev jest --config jest.config.json",
+    "test:watch": "npm test -- --watch",
+    "test:coverage": "npm test -- --watchAll --coverage",
+    "build": "NODE_ENV=prod rollup -c",
+    "publish": "npm build && npm publish",
     "start": "node"
   },
   "repository": {
@@ -23,6 +26,7 @@
   "homepage": "https://github.com/enzoborgfrantz/url-shaper#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-jest": "^21.0.0",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.0",
