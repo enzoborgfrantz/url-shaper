@@ -1,7 +1,7 @@
 import babel from 'rollup-plugin-babel';
 import uglify from 'rollup-plugin-uglify';
 
-const input = 'src/main.js';
+const input = 'src/urlShaper.js';
 
 export default [
   // browser-friendly UMD build
