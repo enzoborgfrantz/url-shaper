@@ -15,6 +15,9 @@
     "url": "git+https://github.com/enzoborgfrantz/url-shaper.git"
   },
   "keywords": [
+    "url",
+    "babel",
+    "jest",
     "rollup"
   ],
   "author": "enzo borg frantz",
